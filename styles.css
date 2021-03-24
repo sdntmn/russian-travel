@@ -1,0 +1,51 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  background-color: rgba(42, 44, 47, 1);
+}
+
+.header {
+  max-width: calc(1280px - 48px * 2);
+  min-height: 52px;
+  justify-content: space-between;
+  align-content: center;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding-top: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin: 0;
+}
+
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+  background-image: rgba(255, 255, 255, 1);
+}
+
+.header__links {
+  padding-top: 18px;
+}
+
+.header__lang-link {
+  display: inline;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 18px;
+}
+
+.header__lang-link:first-of-type {
+  padding-left: 0;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
+}
