@@ -10,6 +10,7 @@
 .page__cover {
   max-width: calc(1280px - 48px * 2);
   margin: 0 auto;
+  color: #ffffff;
 }
 
 .header {
@@ -258,4 +259,78 @@
   font-size: 18px;
   line-height: 163%;
   white-space: pre-line;
+}
+
+/* Секция cover*/
+
+.cover {
+  display: block;
+  position: relative;
+  max-width: 1184px;
+  max-height: 740px;
+
+}
+
+.cover__title {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+
+.cover__subtitle {
+  text-decoration: none;
+
+}
+
+.cover__overlay {
+
+}
+
+.cover__background {
+  background-image: url(../../images/cover-trains.jpg);
+  max-width: 1184px;
+  width: 100%;
+}
+
+/* Секция footer*/
+
+.footer {
+  margin: 0 auto;
+  max-height: 18px;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.footer__links {  
+  
+  margin: 0;
+}
+
+.footer__link {
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__link:first-of-type{
+  margin-left: 0;
+}
+
+.footer__copyright {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
