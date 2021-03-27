@@ -7,19 +7,24 @@
   background-color: rgba(42, 44, 47, 1);
 }
 
-.header {
+.page__cover {
   max-width: calc(1280px - 48px * 2);
+  margin: auto;
+}
+
+.header {
   min-height: 52px;
   height: 100%;
   justify-content: space-between;
   align-content: center;
   display: flex;
+  margin: 0;
   position: relative;
   overflow: hidden;
   padding-top: 28px;
   padding-left: 48px;
   padding-right: 48px;
-  margin: 0;
+  
 }
 
 .header__logo {
@@ -54,11 +59,14 @@
 /* main content*/
 
 /*секция lead */
+.page__section {
+  max-width: 984px;
+  margin: auto;
+}
 
 .lead {
   display: block;
   margin: 56px auto 0;
-  max-width: 984px;
   max-height: 1005px;
   padding-left: 148px;
   padding-right: 148px;
@@ -119,18 +127,45 @@
 
 /* Секция INTRO*/
 .intro {
+  padding-top: 92px;
+}
+
+.intro__width-text {
   max-width: 690px;
-  max-height: 429px;
-  padding-left: ;
+  width: 100%;
+  color: #ffffff;
+  margin: 0;
 }
 
 .intro__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
 }
 
 .intro__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  padding-top: 40px;
 }
 
 .intro__list {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px; 
+  padding-top: 33px;
 }
 
 /* Секция photo-grid*/
+
+.photo-grid {
+
+}
+
+.photo-grid__item {
+  
+}
