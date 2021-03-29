@@ -8,8 +8,6 @@
   background-color: rgba(42, 44, 47, 1);
 }
 
-
-
 .page__cover {
   max-width: calc(1280px - 48px * 2);
   margin: 0 auto;
@@ -47,7 +45,6 @@
   .header {
     max-height: 42px;
     padding-top: 16px;
-    
   }
 }
 
@@ -277,7 +274,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
-  line-height: 18px; 
+  line-height: 18px;
   padding-top: 33px;
   white-space: pre-line;
 }
@@ -316,14 +313,14 @@
 @media (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
-    max-height: 225px;  
+    max-height: 225px;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid__item {
     max-width: 352px;
-    max-height: 264px;  
+    max-height: 264px;
   }
 }
 
@@ -414,11 +411,9 @@
 }
 
 .place__website {
-  
   max-width: 456px;
   margin: auto 0 0;
 }
-
 
 .place__url-heading {
   margin: 0;
@@ -428,13 +423,13 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.2em;
-  color: #AAAAAA;
+  color: #aaaaaa;
   padding-bottom: 12px;
 }
 
 .place__link {
   margin: 0;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -468,8 +463,6 @@
 .place__paragraph-adaptiv {
   display: none;
 }
-
-
 
 .place__paragraph {
   margin: 0;
@@ -519,13 +512,12 @@
 @media (max-width: 1024px) {
   .cover {
     max-width: 100%;
-    
   }
 }
 
 @media (max-width: 768px) {
   .cover {
-    padding-top: 90px;    
+    padding-top: 90px;
   }
 }
 
@@ -537,12 +529,11 @@
 
 .cover__link {
   position: relative;
-  
   display: block;
   text-decoration: none;
   background-image: url(./images/cover-trains.jpg);
   background-size: 100% 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   z-index: 1;
 }
 
@@ -550,6 +541,7 @@
   padding-top: 245px;
   max-width: 560px;
   max-height: 152px;
+  width: 100%;
   text-align: center;
   font-style: normal;
   font-weight: 900;
@@ -573,7 +565,6 @@
 .cover__subtitle {
   max-width: 360px;
   max-height: 66px;
-  width: 100%;
   text-decoration: none;
   text-align: center;
   font-style: normal;
@@ -597,8 +588,8 @@
   }
 }
 
-.cover__title::after {
-  content: '';
+.cover__link::after {
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -610,7 +601,7 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.cover__title:hover::after {
+.cover__link:hover::after {
   opacity: 0.3;
 }
 
@@ -631,7 +622,7 @@
   }
 }
 
-.footer__links {  
+.footer__links {
   margin: 0;
 }
 
@@ -647,7 +638,7 @@
   line-height: 18px;
 }
 
-.footer__link:first-of-type{
+.footer__link:first-of-type {
   margin-left: 0;
 }
 
