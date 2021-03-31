@@ -1,0 +1,10 @@
+.footer__links {
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  .footer__links {
+    display: grid;
+    grid-row-gap: 32px;
+  }
+}

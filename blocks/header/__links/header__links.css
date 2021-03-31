@@ -1,0 +1,19 @@
+.header__links {
+  margin: 0;
+  padding-top: 18px;
+}
+
+@media (max-width: 320px) {
+  .header__links {
+    max-height: 42px;
+    padding-top: 14px;
+  }
+}
+
+.header__lang-link:first-of-type {
+  padding-left: 0;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
+}

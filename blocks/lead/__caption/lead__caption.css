@@ -1,0 +1,26 @@
+.lead__caption {
+  margin: 0;
+  max-width: 158px;
+  width: 100%;
+  max-height: 14px;
+  padding-top: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.14em; /* должно быть 0,15 (0,15 не влазит)??? */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

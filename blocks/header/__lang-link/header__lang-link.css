@@ -1,0 +1,19 @@
+.header__lang-link {
+  margin: 0;
+  display: inline;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 16px;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    line-height: 20px;
+    font-size: 18px;
+    padding-left: 15px;
+  }
+}
