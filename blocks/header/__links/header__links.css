@@ -14,6 +14,6 @@
   padding-left: 0;
 }
 
-.header__lang-link:focus {
+.header__lang-link:active {
   text-decoration: underline;
 }
