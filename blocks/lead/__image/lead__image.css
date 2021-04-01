@@ -18,5 +18,11 @@
   .lead__image {
     max-width: 320px;
     padding-top: 40px;
+    margin: 0 auto;
   }
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
 }

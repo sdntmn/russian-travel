@@ -26,5 +26,6 @@
     display: grid;
     grid-row-gap: 48px;
     padding-top: 64px;
+    text-align: start;
   }
 }
