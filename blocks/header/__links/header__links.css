@@ -5,7 +5,6 @@
 
 @media (max-width: 320px) {
   .header__links {
-    max-height: 42px;
     padding-top: 14px;
   }
 }

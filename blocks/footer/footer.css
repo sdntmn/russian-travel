@@ -1,6 +1,5 @@
 .footer {
   margin: 0 auto;
-  max-height: 18px;
   justify-content: space-between;
   display: flex;
   padding-bottom: 24px;
@@ -10,7 +9,6 @@
 @media (max-width: 768px) {
   .footer {
     padding-top: 88px;
-    max-height: 100%;
   }
 }
 

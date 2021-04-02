@@ -1,7 +1,6 @@
 .lead__image {
   margin: 0;
   max-width: 984px;
-  max-height: 615px;
   width: 100%;
   padding-top: 64px;
 }
@@ -9,7 +8,6 @@
 @media (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    max-height: 580px;
     padding-top: 56px;
   }
 }
