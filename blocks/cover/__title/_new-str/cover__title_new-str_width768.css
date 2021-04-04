@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .cover__title_new-str_width768 {
+    display: block;
+  }
+}
+
+@media (max-width: 321px) {
+  .cover__title_new-str_width768 {
+    display: inline-block;
+  }
+}
