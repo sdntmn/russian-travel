@@ -5,8 +5,6 @@
 /* Повторяющиеся блоки */
 @import url(../blocks/page/__cover/page__cover.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/_new-str-width/page_new-str-width_320.css);
-@import url(../blocks/page/_new-str-width/page_new-str-width_768.css);
 
 /* Вся страница */
 @import url(../blocks/root/root.css);
@@ -65,3 +63,8 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
+
+/* Модификаторы общие*/
+
+@import url(../blocks/page/_new-str-width/page_new-str-width_320.css);
+@import url(../blocks/page/_new-str-width/page_new-str-width_768.css);
