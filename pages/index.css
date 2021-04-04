@@ -58,8 +58,7 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__title/_new-str/cover__title_new-str.css);
-@import url(../blocks/cover/__subtitle/_new-str/cover__subtitle_new-str.css);
+@import url(../blocks/cover/__new-str/cover__new-str.css);
 
 /*/Блок footer*/
 @import url(../blocks/footer/footer.css);
