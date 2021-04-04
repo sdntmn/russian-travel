@@ -5,8 +5,8 @@
 /* Повторяющиеся блоки */
 @import url(../blocks/page/__cover/page__cover.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__new-str/_width/page__new-str_width_320.css);
-@import url(../blocks/page/__new-str/_width/page__new-str_width_768.css);
+@import url(../blocks/page/_new-str-width/page_new-str-width_320.css);
+@import url(../blocks/page/_new-str-width/page_new-str-width_768.css);
 
 /* Вся страница */
 @import url(../blocks/root/root.css);
