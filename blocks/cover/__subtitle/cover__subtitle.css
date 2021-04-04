@@ -25,7 +25,6 @@
 
 @media (max-width: 560px) {
   .cover__subtitle {
-    white-space: pre-line;
     padding-bottom: 33px;
     padding-top: 16px;
     font-size: 14px;

@@ -1,13 +1,12 @@
 .lead__caption {
   margin: 0;
-  max-width: 158px;
   width: 100%;
   padding-top: 6px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
-  letter-spacing: 0.14em; /* должно быть 0,15 (0,15 не влазит)??? */
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ffffff;
 }

@@ -4,29 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/fonts/inter.css" />
-    <title>RUSSIAN-TRAVEL</title>
+    <title>Путешествия по России</title>
   </head>
-  <body>
+  <body class="root">
     <div class="page">
       <header class="header page__cover">
         <img class="header__logo" src="images/logo.svg" alt="Логотип" />
-        <div class="header__links">
-          <a
-            href=""
-            class="header__lang-link header__lang-link_active"
-            target="_self"
-            >Ru</a
-          >
-          <a
-            href=""
-            class="header__lang-link header__lang-link_active"
-            target="_self"
-            >En</a
-          >
-        </div>
+        <ul class="header__links">
+          <li>
+            <a
+              href=""
+              class="header__lang-link header__lang-link_active"
+              target="_self"
+              >Ru</a
+            >
+          </li>
+
+          <li>
+            <a href="" class="header__lang-link" target="_self">En</a>
+          </li>
+        </ul>
       </header>
 
       <main class="content">
@@ -44,28 +42,38 @@
         </section>
 
         <section class="intro page__section">
-          <div class="intro__width">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
-            <p class="intro__text">
-              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
-              только 36% планируют провести отпуск в родной стране. Мол, чего мы
-              тут, дома, не видели? На самом деле, Россия — это целая вселенная
-              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-              Путорана. А ещё увидеть все эти красоты можно без миллионов на
-              счету, загранпаспорта и многочасовых перелетов. Как, например,
-              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
-              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
-              родной стране. Мы выбрали и описали некоторые интересные места,
-              достойные вашего отпуска.
-            </p>
-            <!-- prettier-ignore -->
-            <p class="intro__list">Часовых поясов <span class="intro__numbers">11</span>
-              Объектов природного наследия ЮНЕСКО <span class="intro__numbers">12</span>
-              Объектов культурного наследия ЮНЕСКО <span class="intro__numbers">16</span>
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+            дома, не видели? На самом деле, Россия — это целая вселенная с
+            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+            стране. Мы выбрали и описали некоторые интересные места, достойные
+            вашего отпуска.
+          </p>
+          <ul class="intro__lists">
+            <li class="intro__list">
+              Часовых поясов <span class="intro__numbers">11</span>
+            </li>
+            <li class="intro__list">
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__numbers">12</span>
+            </li>
+            <li class="intro__list">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__numbers">16 </span>
+            </li>
+            <li class="intro__list">
               Природных заповедников <span class="intro__numbers">105</span>
+            </li>
+            <li class="intro__list">
               Аэропортов <span class="intro__numbers">241</span>
-            </p>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section class="photo-grid page__cover">
@@ -135,9 +143,9 @@
           <article class="place">
             <!-- prettier-ignore -->
             <h2 class="place__title">Куршская
-              коса</h2>
+              <span class="page__new-str_width_768">коса</span></h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="http://park-kosa.ru" class="place__link" target="_blank"
                 >park-kosa.ru</a
               >
@@ -152,16 +160,29 @@
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                 водных горизонта — спокойного Куршского залива с одной стороны и
                 подёрнутого рябью волн Балтийского моря с другой. Уникальная
-                природная зона на краю российского анклава.
+                природная зона
+                <span class="page__new-str_width_320"
+                  >на краю российского анклава.</span
+                >
               </p>
 
               <p class="place__paragraph">
-                На этом Калининградская область не заканчивается. Для
-                путешественника и исследователя там же по соседству — самая
-                западная точка России, Балтийская коса, — и немецкое наследие
-                россыпи небольших приморских городов. Атмосфера здешних мест
-                исключает суету, окуная в спокойствие природы и запах стального,
-                прохладного моря.
+                На этом Калининградская область не заканчивается.
+                <span class="page__new-str_width_320">Для путешественника</span>
+                и исследователя там же
+                <span class="page__new-str_width_320"
+                  >по соседству — самая западная</span
+                >
+                точка России, Балтийская коса, —
+                <span class="page__new-str_width_320"
+                  >и немецкое наследие россыпи</span
+                >
+                небольших приморских городов. Атмосфера здешних мест исключает
+                суету, окуная
+                <span class="page__new-str_width_320"
+                  >в спокойствие природы и запах</span
+                >
+                стального, прохладного моря.
               </p>
             </div>
           </article>
@@ -169,7 +190,7 @@
           <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 class="place__link"
@@ -187,7 +208,7 @@
               <!-- prettier-ignore -->
               <p class="place__paragraph">Почти весь полуостров находится за Полярным
                 кругом. Саамская тундра, от которой на юг —
-                тайга, а на север — Ледовитый океан,
+                тайга, <span class="page__new-str_width_320">а на север — Ледовитый океан,</span>
                 прикидывающийся Баренцевым морем.
               </p>
               <!-- prettier-ignore -->
@@ -208,7 +229,7 @@
             <h2 class="place__title">Алтай</h2>
 
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                 class="place__link"
@@ -243,7 +264,7 @@
           <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a
                 href="https://vk.com/baikalmile"
                 class="place__link"
@@ -266,8 +287,8 @@
               </p>
               <!-- prettier-ignore -->
               <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное
-                место для соревнований по скийорингу. Это такой
-                вид спорта, когда лыжник привязывает себя 
+                место для <span class="page__new-str_width_320">соревнований по скийорингу. Это</span> такой
+                вид спорта, когда лыжник <span class="page__new-str_width_320">привязывает себя</span> 
                 к мотоциклу, и тандем старается развить как можно
                 бóльшую скорость на льду. В марте 2019 года на
                 фестивале «Байкальская миля» был поставлен
@@ -279,7 +300,7 @@
           <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <p class="place__url-heading">url</p>
               <a href="http://vodlozero.ru" class="place__link" target="_blank">
                 http://vodlozero.ru/
               </a>
@@ -308,15 +329,15 @@
         <section class="cover page__cover">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            class="cover__link cover__link_after cover__link_hover_after"
+            class="cover__link"
             target="_blank"
           >
             <!-- prettier-ignore -->
-            <h2 class="cover__title">До Байкала
-              «на собаках»</h2>
+            <h2 class="cover__title">До Байкала <span class="page__new-str_width_320">
+              «на собаках»</span></h2>
             <!-- prettier-ignore -->
-            <p class="cover__subtitle">По мотивам учебной темы
-              о Транссибе — путешествие
+            <p class="cover__subtitle">По мотивам учебной темы<span class="page__new-str_width_320">
+              о Транссибе — путешествие</span>
               от столицы до Байкала на электричках.
             </p>
           </a>
@@ -324,36 +345,53 @@
       </main>
 
       <footer class="footer page__cover">
-        <nav class="footer__links">
-          <a href="https://yandex.ru/maps" class="footer__link" target="_blank"
-            >Карты</a
-          >
-          <a
-            href="https://yandex.ru/pogoda"
-            class="footer__link"
-            target="_blank"
-            >Погода</a
-          >
-          <a href="https://rasp.yandex.ru" class="footer__link" target="_blank"
-            >Расписание</a
-          >
-          <a
-            href="https://calendar.yandex.ru"
-            class="footer__link"
-            target="_blank"
-          >
-            Календарь
-          </a>
-          <a
-            href="https://travel.yandex.ru"
-            class="footer__link"
-            target="_blank"
-          >
-            Путешествия
-          </a>
+        <nav>
+          <ul class="footer__links">
+            <li>
+              <a
+                href="https://yandex.ru/maps"
+                class="footer__link"
+                target="_blank"
+                >Карты</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://yandex.ru/pogoda"
+                class="footer__link"
+                target="_blank"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rasp.yandex.ru"
+                class="footer__link"
+                target="_blank"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://calendar.yandex.ru"
+                class="footer__link"
+                target="_blank"
+              >
+                Календарь
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://travel.yandex.ru"
+                class="footer__link"
+                target="_blank"
+              >
+                Путешествия
+              </a>
+            </li>
+          </ul>
         </nav>
-
-        <p class="footer__copyright">&#169;2021. <i>SDN</i></p>
+        <p class="footer__copyright">&#169;2021. SDN</p>
       </footer>
     </div>
   </body>

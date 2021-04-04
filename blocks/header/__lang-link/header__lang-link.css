@@ -6,7 +6,6 @@
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
-  padding-left: 16px;
 }
 
 @media (max-width: 320px) {
@@ -15,4 +14,8 @@
     font-size: 18px;
     padding-left: 15px;
   }
+}
+
+.header__lang-link:first-of-type {
+  padding-left: 0;
 }
