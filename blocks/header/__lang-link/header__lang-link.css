@@ -19,3 +19,8 @@
 .header__lang-link:first-of-type {
   padding-left: 0;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 1);
+}
