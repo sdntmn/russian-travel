@@ -22,10 +22,6 @@
     font-size: 42px;
     line-height: 46px;
   }
-
-  .place__title_first-child {
-    word-spacing: 100vw;
-  }
 }
 
 @media (max-width: 660px) {
@@ -39,7 +35,6 @@
 
 @media (max-width: 320px) {
   .place__title {
-    margin: 0 auto;
     max-width: 288px;
     line-height: 35px;
     text-align: left;

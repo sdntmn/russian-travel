@@ -25,6 +25,5 @@
 @media (max-width: 768px) {
   .lead.page__section {
     max-width: 768px;
-    width: 100%;
   }
 }

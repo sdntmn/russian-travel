@@ -33,7 +33,6 @@
 @import url(../blocks/intro/__numbers/intro__numbers.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__width/intro__width.css);
 
 /* Секция /Блок photo-grid/ */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -49,7 +48,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__title/_first-child/place__title_first-child.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 
@@ -58,7 +56,6 @@
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__new-str/cover__new-str.css);
 
 /*/Блок footer*/
 @import url(../blocks/footer/footer.css);
